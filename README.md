@@ -11,3 +11,5 @@ It does the following functions :-
 2. Delete Task
 
 3. Mark task as done
+
+4. Set a reminder (alarm) for the tasks 
