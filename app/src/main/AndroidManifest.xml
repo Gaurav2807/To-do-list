@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDoList">
+        <activity android:name=".MyNotesActivity"></activity>
 
         <activity android:name=".LoginActivity">
             <intent-filter>
@@ -16,10 +17,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
         </activity>
-
-        <activity android:name=".MainActivity"></activity>
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
